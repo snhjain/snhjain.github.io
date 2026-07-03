@@ -22,19 +22,16 @@ profiles:
     image_circular: false
     more_info: >
       <p><strong>Michaela Reid</strong></p>
-      <p>Summer Research Student</p>
   - align: right
     image: Yasmine_B.jpeg
     content: people_yasmine_baccari.md
     image_circular: false
     more_info: >
       <p><strong>Yasmine Baccari</strong></p>
-      <p>Undergraduate Research Student</p>
   - align: left
     image: pfpUtku.jpeg
     content: people_utku_cerit.md
     image_circular: false
     more_info: >
       <p><strong>Utku Cerit</strong></p>
-      <p>Graduate Student</p>
 ---
