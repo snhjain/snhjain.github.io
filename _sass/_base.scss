@@ -444,6 +444,11 @@ footer.fixed-bottom {
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
+
+    span,
+    strong {
+      color: inherit;
+    }
   }
 
   a {
@@ -464,6 +469,11 @@ footer.sticky-bottom {
 
   .container {
     text-align: center;
+
+    span,
+    strong {
+      color: inherit;
+    }
   }
 }
 
