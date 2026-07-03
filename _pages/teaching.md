@@ -8,7 +8,7 @@ nav_order: 6
 display_categories: ["University of Calgary", "Stanford University", "CEPT", "EPFL", "IIIT Hyderabad"]
 ---
 
-<div class="courses">
+<div class="projects">
 {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
