@@ -1,0 +1,3 @@
+Summer Research Student, BDCI, University of Calgary.  
+
+I am 3rd year Bachelor of Design in City Innovation (BDCI) student pursuing a concentration in Landscape Architecture and a Certificate in Sustainability. I grew up in Kingston, Jamaica and enjoy reading, watching movies, and dancing. This summer, I have been awarded the USSR Alberta Innovates Summer Research Award to study the impact of light on older adults in senior care facilities. 
