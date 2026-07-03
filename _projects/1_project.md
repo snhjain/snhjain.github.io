@@ -1,7 +1,7 @@
 ---
 layout: page
-title: A Transdisciplinary Framework for Designing Healthier Living Environments
-description: with background image
+title: Daylight
+description: Research on topics related to daylight
 img: assets/img/calgary_skyline1.jpg
 importance: 1
 category: ongoing
