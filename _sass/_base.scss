@@ -652,6 +652,15 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+
+  .institution-logo {
+    height: 55px;
+    width: auto;
+    max-width: 100%;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
 }
 
 // Publications
