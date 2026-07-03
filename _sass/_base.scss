@@ -654,11 +654,13 @@ footer.sticky-bottom {
   }
 
   .institution-logo {
+    display: block;
     height: 50px;
     width: 200px;
     max-width: 100%;
+    margin-right: auto;
     object-fit: contain;
-    object-position: right center;
+    object-position: left center;
     background: white;
     padding: 6px 10px;
     border-radius: 6px;
