@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: List of Courses taught by Dr. Sneha Jain
 nav: true
 nav_order: 6

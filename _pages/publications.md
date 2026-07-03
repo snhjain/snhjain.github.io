@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Publications in reversed chronological order. Use the filter option to search for a specific topics
 nav: true
 nav_order: 2

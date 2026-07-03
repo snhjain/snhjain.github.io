@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   <strong><span style="font-size: 1.3em;">D</span>aylight, <span style="font-size: 1.3em;">WE</span>llbeing, and the <span style="font-size: 1.3em;">L</span>iving Environment <span style="font-size: 1.3em;">L</span>ab</strong>.<br>
