@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: List of Courses taught by Dr. Sneha Jain
+description:
 nav: true
 nav_order: 6
 display_categories: ["University of Calgary", "Stanford University", "CEPT", "EPFL", "IIIT Hyderabad"]
