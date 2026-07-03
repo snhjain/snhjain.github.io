@@ -198,6 +198,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  courses:
+    output: false
+    permalink: /:collection/:title/
 
 announcements:
   enabled: true
@@ -244,6 +247,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/teaching_old.md
   - purgecss.config.js
   - README.md
   - readme_preview/

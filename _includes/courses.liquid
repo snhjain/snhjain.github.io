@@ -1,0 +1,10 @@
+<div class="col">
+  {% if course.redirect %}<a href="{{ course.redirect }}">{% endif %}
+    <div class="card h-100 hoverable">
+      <div class="card-body">
+        <h2 class="card-title">{{ course.title }}</h2>
+        <p class="card-text">{{ course.description }}</p>
+      </div>
+    </div>
+  {% if course.redirect %}</a>{% endif %}
+</div>
