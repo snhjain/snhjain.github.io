@@ -75,15 +75,14 @@ layout: default
       </div>
     {% endif %}
 
-    <!-- MapMyVisitors visitor map -->
-    <div style="width: 150px; margin: 2rem 0 0 auto;">
-      <a href="https://mapmyvisitors.com/web/1c67j" title="Visit tracker">
-        <img
-          src="https://mapmyvisitors.com/map.png?d=QyhqQERmT46a3qlI7XPlVb8g4u5wn5jc1XDfbRYsX6U&cl=ffffff"
-          style="width: 100%; display: block;"
-          alt="Visitor map"
-        />
-      </a>
+    <!-- MapMyVisitors visitor tracker: hidden off-screen but still loaded so visits are recorded -->
+    <div style="position: absolute; width: 1px; height: 1px; overflow: hidden; left: -9999px; top: auto;" aria-hidden="true">
+      <img
+        src="https://mapmyvisitors.com/map.png?d=QyhqQERmT46a3qlI7XPlVb8g4u5wn5jc1XDfbRYsX6U&cl=ffffff"
+        alt=""
+        width="1"
+        height="1"
+      />
     </div>
 
     {% if site.newsletter.enabled and site.footer_fixed %}
