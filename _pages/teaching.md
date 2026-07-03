@@ -11,7 +11,16 @@ display_categories: ["University of Calgary", "Stanford University", "CEPT", "EP
 <div class="projects">
 {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    {% assign logo = site.data.institution_logos[category] %}
+    {% if logo %}
+      <h2 class="category">
+        <img class="institution-logo"
+             src="{{ '/assets/img/logos/' | append: logo | relative_url }}"
+             alt="{{ category }}">
+      </h2>
+    {% else %}
+      <h2 class="category">{{ category }}</h2>
+    {% endif %}
   </a>
   {% assign categorized_courses = site.courses | where: "category", category %}
   {% assign sorted_courses = categorized_courses | sort: "importance" %}
