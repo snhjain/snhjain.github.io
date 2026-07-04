@@ -2,7 +2,7 @@
 layout: page
 title: Daylight
 description: Research on topics related to daylight
-img: assets/img/calgary_skyline1.jpg
+img: assets/img/daylight.jpeg
 importance: 1
 category: ongoing
 related_publications: true

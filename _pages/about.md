@@ -9,9 +9,10 @@ subtitle: >
 
 profile:
   align: right
-  image: SJ_profile_photo.png
+  image: SAPL-Downtown.webp
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Location:</p>
     <p>SAPL Downtown Campus</p>
     <p>801 7th Ave SW</p>
     <p>Calgary, AB, Canada T2P 1A1</p>
