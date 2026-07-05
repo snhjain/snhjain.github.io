@@ -9,7 +9,7 @@ subtitle: >
 
 profile:
   align: right
-  image: SAPL-Downtown.webp
+  image: SJ_profile_photo.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Location:</p>
