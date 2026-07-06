@@ -1,0 +1,11 @@
+{% if site.footer_text %}
+  {% if site.footer_fixed %}
+    <footer class="fixed-bottom" role="contentinfo">
+      <div class="container mt-0">{{ site.footer_text }}</div>
+    </footer>
+  {% else %}
+    <footer class="sticky-bottom mt-5" role="contentinfo">
+      <div class="container">{{ site.footer_text }}</div>
+    </footer>
+  {% endif %}
+{% endif %}
