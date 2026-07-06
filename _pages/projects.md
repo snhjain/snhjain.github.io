@@ -5,7 +5,7 @@ permalink: /Research/
 description:
 nav: true
 nav_order: 3
-display_categories: [ongoing, completed]
+display_categories: [ongoing]
 horizontal: false
 ---
 
