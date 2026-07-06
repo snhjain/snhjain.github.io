@@ -18,15 +18,20 @@ Our research asks: **How do Calgarians from diverse backgrounds and housing type
 ---
 
 
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/city_calgary.png" title="Healthier cities" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/city_calgary.png" title="healthier cities" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/calgary-housing.webp" title="City of Calgary" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/community_codesign.png" title="community codesign" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        <div class="row">
+            <div class="col-12 mb-3">
+                {% include figure.liquid loading="eager" path="assets/img/calgary-housing.webp" title="Calgary housing" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="col-12">
+                {% include figure.liquid loading="eager" path="assets/img/community_codesign.png" title="Co-design workshop" class="img-fluid rounded z-depth-1" %}
+            </div>
+        </div>
     </div>
 </div>
 <div class="caption">

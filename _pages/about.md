@@ -4,15 +4,17 @@ title: About
 permalink: /
 subtitle: >
   <strong><span style="font-size: 1.3em;">D</span>aylight, <span style="font-size: 1.3em;">WE</span>llbeing, and the <span style="font-size: 1.3em;">L</span>iving Environment <span style="font-size: 1.3em;">L</span>ab</strong>.<br>
-  School of Architecture, Planning and Landscape (SAPL)<br>
-  University of Calgary.
+  <a href="https://sapl.ucalgary.ca/" target="_blank">School of Architecture, Planning and Landscape (SAPL)</a><br>
+  <a href="https://www.ucalgary.ca/" target="_blank">University of Calgary</a>.
+
 
 profile:
   align: right
   image: SJ_profile_photo.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Location:</p>
+    <p>Dr. Sneha Jain </p>
+    <p>Office Location:</p>
     <p>SAPL Downtown Campus</p>
     <p>801 7th Ave SW</p>
     <p>Calgary, AB, Canada T2P 1A1</p>

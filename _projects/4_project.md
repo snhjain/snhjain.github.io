@@ -2,7 +2,7 @@
 layout: page
 title: Daylight and Visual comfort 
 #description: Domain-specific fundamental research
-img: assets/img/daylight.jpg
+img: assets/img/daylight.jpeg
 importance: 3
 category: ongoing
 ---
@@ -16,13 +16,13 @@ This research track advances the science of how people experience daylight and t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/electrochromic_glazing.jpeg" title="EC experiment in demona" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/EC_sideview.png" title="EC experiment in demona" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/publication_preview/jain2025color.png" title="color experiment" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/deep_learning_glare.jpeg" title="deep learning" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/deep_learning_glare.png" title="deep learning" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
