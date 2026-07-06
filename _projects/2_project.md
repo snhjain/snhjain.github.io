@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Living Lab 
-description:  Creating a living lab at University of Calgary to monitor IEQ and comfort
+description: Infrastructural and methodological dimension
 img: assets/img/3.jpg
 importance: 2
 category: ongoing

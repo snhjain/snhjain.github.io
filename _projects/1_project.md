@@ -1,81 +1,49 @@
 ---
 layout: page
-title: Daylight
-description: Research on topics related to daylight
-img: assets/img/daylight.jpeg
+title: Healthier Living Environment 
+description: Environmental determinants of health in homes
+img: assets/img/calgary_SJ.jpg
 importance: 1
 category: ongoing
-related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+We spend over 90% of our time indoors, yet buildings are typically designed to meet energy performance and safety targets while overlooking human comfort and wellbeing. Poor indoor environmental quality (IEQ) can lead to respiratory diseases, stress, sleep disruption, and impaired cognitive function. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In Calgary, these challenges are amplified by the city's unique climate - intense solar exposure, dramatic temperature shifts, and seasonal wildfire smoke - all of which affect indoor air quality, thermal comfort, and visual comfort. Standard design practices often fail to mitigate these extremes, and architects and planners currently lack the human-centered data needed to create spaces that are truly resilient and supportive of occupant health.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our research asks: **How do Calgarians from diverse backgrounds and housing types experience comfort and wellbeing in their homes?** We're developing evidence-based frameworks and tools to help designers and policymakers move beyond code-minimums toward healthier, more resilient living environments.
+
+> **We are currently recruiting MDR students for this project.** [Learn more and apply here](https://sapl.ucalgary.ca/future-students/graduate/master-design-research-mdr).
+
+---
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/healthier_living.png" title="Healthier cities" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/city_calgary.png" title="City of Calgary" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/community_codesign.png" title="community codesign" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Transdisciplinary Framework for Designing Healthier Living Environments with community-led approach
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This transdisciplinary project develops and validates a novel survey instrument to evaluate comfort and wellbeing in Calgary homes.  Our approach integrates building science, human psychology, urban policy, and community-centered design into a single holistic framework.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+The validated survey will provide Calgary-specific data on how climate, housing design, and individual factors interact to affect wellbeing. This evidence will help architects design more comfortable, healthy spaces and inform municipal policy toward resilient, human-centered building standards.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Collaborators:**
+- Peter Spearey, Urban Design Office, City of Calgary
+- [Jessie Andjelic](https://spectacle-bureau.com/OFFICE), Principal architect, SPECTACLE
+- [Dr. Christopher Sears](https://profiles.ucalgary.ca/christopher-sears), Psychology, University of Calgary
+- [Dr. Kathleen Reinhardt](https://www.kathleenreinhardt.com/), Anthropology, University of Calgary
+- [Dr. Michael Antle](https://profiles.ucalgary.ca/michael-christopher-antle), Neuroscience,University of Calgary
+- [Dr. Lorenzo Di Carli](https://profiles.ucalgary.ca/lorenzo-de-carli), Electrical & Software Engineering, University of Calgary
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Media Coverage:**
+[Transdisciplinary project explores how homes can better support well-being] (https://ucalgary.ca/news/transdisciplinary-project-explores-how-homes-can-better-support-well-being)

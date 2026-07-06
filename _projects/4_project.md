@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Visual comfort 
-description: another without an image
+title: Daylight and Visual comfort 
+description: Domain-specific fundamental research
 img:assets/img/glare.jpeg
 importance: 3
 category: ongoing
