@@ -2,79 +2,68 @@
 layout: page
 title: Daylight and Visual comfort 
 description: Domain-specific fundamental research
-img: assets/img/glare.jpeg
+img: assets/img/daylight.jpg
 importance: 3
 category: ongoing
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Daylight shapes our experience of spaces, it influences visual comfort, supports circadian rhythms, connects to the outside world, and affects our mood and productivity. Yet buildings often fail to harness daylight effectively, either providing too little (leading to reliance on electric lighting and loss of health benefits) or too much (causing glare, thermal discomfort, and energy penalties from cooling).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This research track advances the science of how people experience daylight and translates those findings into practical design guidance. This work spans fundamental vision science, glare models, view out from windows, shading & glazing testing, and real-world field studies to create evidence-based strategies for achieving visual comfort while supporting occupant health and building sustainability.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+## Completed Work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/electrochromic_glazing.jpeg" title="EC experiment in demona" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/jain2023macular.jpg" title="color experiment" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/deep_learning_glare.jpeg" title="deep learning" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Advancing the science of discomfort glare: psychophysical experiments revealed how spectral content and individual eye physiology affect glare perception, leading to modifications in European Building Standard EN 17037.
 </div>
+Advancing the Science of Discomfort Glare
+
+Through controlled psychophysical experiments at EPFL, we established that both the **spectral content of daylight** (its color composition) and **individual eye physiology** (macular pigment density in the retina) influence how discomfort glare is perceived. Existing glare prediction models failed to consider these factors, leading to inaccurate assessments, especially in buildings with tinted or colored glazing.
+
+**Key Contributions:**
+- Developed a **modified discomfort glare model** that accounts for spectral effects
+- Directly informed **European Building Standard EN 17037** on Daylight in Buildings, redefining visual comfort thresholds for tinted glazing in office spaces
+
+**Selected Publications** 
+
+S Jain, J Wienold, L Hellwig, M Andersen, [Influence of color on glare perception revealed when seeing the sun
+through colored](https://www.nature.com/articles/s41598-025-21737-5?fromPaywallRec=false), Scientific Reports by Nature, Sep 2025.
+S Jain, J Wienold, C Eandi, S Gisselbaek, A Kawasaki, M Andersen, [Influence of macular pigment on the sensitivity to
+discomfort glare from daylight](https://www.nature.com/articles/s41598-023-45785-x), Scientific Reports by Nature, Oct 2023.
+S Jain, J Wienold, M Lagier, A Schuler, M Andersen, [Perceived glare from the sun behind tinted glazings: Comparing
+blue vs. color-neutral tints](https://www.sciencedirect.com/science/article/pii/S0360132323001737?via%3Dihub), Building and Environment, March 2023.
+
+## Ongoing & Future Work
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/timeofday.jpg" title="Field monitoring of light exposure and adaptive interventions" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Moving from laboratory to field: Understanding real-world light exposure
 </div>
+Understanding Occupant Light Exposure and Health Links
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Despite decades of laboratory research, we know surprisingly little about how people actually accumulate light exposure throughout their day—across homes, workplaces, and transit—and how these dynamic patterns affect sleep, mood, alertness, and long-term wellbeing.
+Our goal is to establish empirically how specific building features shape personal light exposure and downstream health outcomes, generating evidence for architects, building standards, and public health policy.
 
-{% raw %}
+> **We are currently recruiting students for this research.** [Learn more here](https://sapl.ucalgary.ca/future-students/graduate/master-design-research-mdr).
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Media & Recognition
 
-{% endraw %}
+- Featured in science documentary []'Daylight Revolution'](https://daylight.academy/news/daylight-revolution-daylight-academy-projects-documentary-to-premiere-in-basel/), 6th Global Science Film Festival (Basel, 2024)
+- Coverage in EPFL News: [Article 1](https://actu.epfl.ch/news/is-there-a-physiological-explanation-behind-expe-2/), [Article 2](https://news.epfl.ch/news/red-is-shown-to-create-a-surprising-amount-of-glar/) 
+
