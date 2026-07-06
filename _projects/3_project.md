@@ -2,7 +2,7 @@
 layout: page
 title: Aging in place
 description: Designing healthier living environments for older adults
-img: assets/img/aging.jpg
+img: assets/img/SAPL_office.jpg
 importance: 3
 category: ongoing
 ---
