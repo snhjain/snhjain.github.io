@@ -1,80 +1,92 @@
 ---
 layout: page
 title: Aging in place
-description: a project that redirects to another website
+description: Designing healthier living environments for older adults
 img: assets/img/aging.jpg
 importance: 3
 category: ongoing
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Globally, the population aged 60 and older will nearly double by 2050 and the population aged 80 years or older is expected to triple between 2020 and 2050 making 22% of the world's population. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This demographic shift demands targeted research and design interventions in the living environments of older adults by (i)  understanding how indoor environmental quality impacts their health, (ii) proposing design strategies that support their wellbeing, and (iii) contributing to preventative care through better building design.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Our work focuses on evidence-based design for aging in place, combining field studies, environmental monitoring, and co-design with older adult communities to create living environments that support independence, health, and quality of life.
+
+## Ongoing Projects
+
+### Lighting Requirements and Design Guidelines for Older Adult Facilities
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/tricowell_bldg.png" title="Trico Living Well" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/sankey_review.jpg" title="Literature review" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Systematic review and comparison of lighting requirements in literature, building standards and existing buildings for older adult.
 </div>
+
+**Ongoing**
+This work synthesizes current lighting requirements for older adults from both peer-reviewed research and building standards (LEED, WELL, etc.). We're developing evidence-based design interventions that address age-related visual changes, circadian health needs, and safety requirements specific to senior living environments.
+
+**Research Questions:**
+- What are the gaps between current building standards and empirical evidence on lighting needs for older adults?
+- How can design interventions fulfill these requirements through daylighting, electric lighting, and adaptive technologies?
+- What role can personalized lighting play in supporting healthy aging?
+
+## Team
+
+**Students:**
+- Michaela Reid-Samuel, summer intern, University of Calgary
+- Jona Kelava, summer intern, University of Calgary
+
+
+**Collaborators:**
+- [Dr. Michael Antle](https://profiles.ucalgary.ca/michael-christopher-antle), Department of Psychology, University of Calgary
+- Alvin Fritz, Principal architect, Alvin Reinhard Fritz Architect Inc.
+- Dr. Roxanne Sterniczuk, Psychologist
+
+**Funding:**
+Alberta Innovates
+
+---
+## Completed Projects
+
+### Sustainable Retrofits and Wellbeing in Affordable Senior Housing
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/aging_chinatown.jpg" title="Case of affordable housing building in SF Chinatown" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/wellbeing_framework.png" title="Wellbeing framework" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/aging_interview.jpg" title="interview method" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Impact of sustainable retrofitting on older adults' wellbeing: A case study of affordable senior housing in San Francisco.
 </div>
+**Completed at Stanford University**
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This field study examined how sustainable retrofitting of affordable housing for older adults in San Francisco's Chinatown impacted five domains of wellbeing: physical, emotional, social, environmental, and functional. Through mixed-method approach co-developed with community partners and culturally responsive engagement with residents, we documented how the changes in indoor environmental quality and resident-reported health outcomes related to the building upgrades.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Team**
+- Andrea Green, Stanford University
+- Flora Xu, Stanford University
+- Esteban Germann, EPFL
+- Dr. Deland Chan, Chinatown Community Development Center
+- Prof. Sarah Billington, Stanford University
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Related Publications
 
-{% raw %}
+1. S. Jain, E. Germann, A. Green, and J. Xu, D. Chan, S. Billington, Assessing window view quality in a renovated affordable housing for older adults, 10th VELUX Daylight Symposium, Sep 2025
+2. F. Xu, A. Green, S. Jain, D. Chan, S. Billington, Impact of sustainable retrofitting on resident wellbeing: A critical review, Building and Environment, 2025, https://doi.org/10.1016/j.buildenv.2025.113354.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+
+

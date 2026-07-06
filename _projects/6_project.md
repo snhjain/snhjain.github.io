@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Sustainable retrofitting
+title: Wellbeing
 description: a project with no image
 img:
 importance: 4

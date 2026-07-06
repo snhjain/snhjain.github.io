@@ -2,7 +2,7 @@
 layout: page
 title: Visual comfort 
 description: another without an image
-img:
+img:assets/img/glare.jpeg
 importance: 3
 category: ongoing
 ---

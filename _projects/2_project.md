@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Creating a living lab at SAPL
-description: a project with a background image and giscus comments
+title: Living Lab 
+description:  Creating a living lab at University of Calgary to monitor IEQ and comfort
 img: assets/img/3.jpg
 importance: 2
 category: ongoing
