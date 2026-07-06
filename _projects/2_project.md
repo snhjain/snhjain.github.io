@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Living Lab 
-description: Infrastructural and methodological dimension
+#description: Infrastructural and methodological dimension
 img: assets/img/SAPL_office.jpg
 importance: 2
 category: ongoing
-giscus_comments: true
 ---
 Real-world monitoring of indoor environments and occupant wellbeing
 

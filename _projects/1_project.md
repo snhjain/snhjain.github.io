@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Healthier Living Environment 
-description: Environmental determinants of health in homes
+#description: Environmental determinants of health in homes
 img: assets/img/calgary_SJ.jpg
 importance: 1
 category: ongoing
@@ -20,10 +20,10 @@ Our research asks: **How do Calgarians from diverse backgrounds and housing type
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/healthier_living.png" title="Healthier cities" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/city_calgary.png" title="Healthier cities" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/city_calgary.png" title="City of Calgary" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/calgary-housing.webp" title="City of Calgary" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/community_codesign.png" title="community codesign" class="img-fluid rounded z-depth-1" %}
@@ -46,4 +46,4 @@ The validated survey will provide Calgary-specific data on how climate, housing 
 - [Dr. Lorenzo Di Carli](https://profiles.ucalgary.ca/lorenzo-de-carli), Electrical & Software Engineering, University of Calgary
 
 **Media Coverage:**
-[Transdisciplinary project explores how homes can better support well-being] (https://ucalgary.ca/news/transdisciplinary-project-explores-how-homes-can-better-support-well-being)
+[Transdisciplinary project explores how homes can better support well-being](https://ucalgary.ca/news/transdisciplinary-project-explores-how-homes-can-better-support-well-being)
