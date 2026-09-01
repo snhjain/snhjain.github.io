@@ -34,4 +34,10 @@ profiles:
     image_circular: false
     more_info: >
       <p><strong>Utku Cerit</strong></p>
+  - align: right
+    image: Alysa_Beaton.jpeg
+    content: people_Alysa_Beaton.md
+    image_circular: false
+    more_info: >
+      <p><strong>Alysa Beaton</strong></p>
 ---

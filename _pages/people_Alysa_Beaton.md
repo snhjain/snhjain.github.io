@@ -1,0 +1,3 @@
+Research Assistant, BA (Hons) Psychology, University of Calgary
+
+I recently graduated from the University of Calgary with a BA (Honours) in Psychology. I am currently working as a research assistant for the DWELL lab, contributing to a project examining factors that influence comfort and well-being in the homes of Calgary residents. Long term, my goal is to pursue graduate studies in counselling or clinical psychology. I am originally from Fort McMurray, Alberta and in my free time, I enjoy listening to music, playing guitar, taking care of my plants, and knitting. 
